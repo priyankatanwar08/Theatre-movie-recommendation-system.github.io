@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://use.fontawesome.com/7e1d2e4f81.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Recommendation System</title>
+</head>
+<body>
+    <!-- NAVBAR START-->
+    <nav class="navbar navbar-expand-lg flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img class="logo" src="images\logo-removebg-preview.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+            <ul class="navbar-nav " id="nav-ul">
+              <li class="nav-item "id="nav-item1">
+                <a class="nav-link active text-pink-700 text-lg" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item" id="nav-item2">
+                <a class="nav-link text-pink-700 text-lg" href="movie.html">Movie</a>
+              </li>
+              <li class="nav-item" id="nav-item3">
+                <a class="nav-link text-pink-700 text-lg" href="webseries.html">Web Series</a>
+              </li>
+              <li class="nav-item" id="nav-item4">
+                <a class="nav-link text-pink-700 text-lg" href="aboutus.html">About us</a>
+              </li>
+            </ul>
+             </div>
+             <button type="button" class="btn btn-danger flex justify-items-end">Login</button>
+            <button type="button" class="btn btn-danger flex justify-items-end rounded-full " style="color: Mediumslateblue;"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+         
+        </div>
+      </nav>
+       <!-- NAVBAR END-->
+       <div class="container flex">
+           <div class="row">
+               <div class="col-lg-8  flex justify-content-center  mx-auto">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images\allu-arjun-opens-up-about-his-plans-for-pushpa-2-001.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images\atrangi.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images\bigbull.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+               </div>
+           </div>
+       
+       </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
